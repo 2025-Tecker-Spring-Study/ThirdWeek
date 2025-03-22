@@ -7,7 +7,11 @@ public class MemberServiceImpl implements MemberService {
 
     // 구현 객체가 없으면 join, findMember 메소드 실행시 NullPointerError 속출
     // 따라서 앞서 구현한 MemoryMemberRepository 객체를 생성하여 넣어준다.
-    private final MemberRepository memberRepository = new MemoryMemberRepository();
+    private final MemberRepository memberRepository;
+
+    public MemberServiceImpl(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository;
+    }
 
 
     // 다형성 성질 이용
@@ -23,6 +27,10 @@ public class MemberServiceImpl implements MemberService {
     @Override
     public Member findMember(Long memberId) {
         return memberRepository.findById(memberId);
+    }
+
+    public MemberRepository getMemberRepository() {
+        return memberRepository;
     }
 }
 
