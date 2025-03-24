@@ -1,0 +1,13 @@
+# Gradle build
+.gradle
+# build/ 제거
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IntelliJ IDEA
+.idea
+# *.iml, *.iws, *.ipr 제거
+# out/ 제거
+!**/src/main/**/out/
+!**/src/test/**/out/
