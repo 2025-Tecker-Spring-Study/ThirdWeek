@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.lifecycle.NetworkClientBeanLifeCycleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-30T07:58:00.342Z" hostname="daiseek.local" time="0.155">
+  <properties/>
+  <testcase name="lifeCycleTest()" classname="hello.core.lifecycle.NetworkClientBeanLifeCycleTest" time="0.155"/>
+  <system-out><![CDATA[url when constructing : null
+NetworkClient.init
+네트워크 연결
+message : 초기화메시지and url :http://hello-spring.dev
+NetworkClient.close
+url when disconnecting: http://hello-spring.dev
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

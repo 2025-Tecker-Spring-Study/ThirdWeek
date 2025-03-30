@@ -1,0 +1,139 @@
+n13:35:34,299 |-INFO in ch.qos.logback.classic.LoggerContext[default] - This is logback-classic version 1.5.16
+“13:35:34,300 |-INFO in ch.qos.logback.classic.util.ContextInitializer@bf1ec20 - Here is a list of configurators discovered as a service, by rank: 
+”13:35:34,300 |-INFO in ch.qos.logback.classic.util.ContextInitializer@bf1ec20 -   org.springframework.boot.logging.logback.RootLogLevelConfigurator
+«13:35:34,300 |-INFO in ch.qos.logback.classic.util.ContextInitializer@bf1ec20 - They will be invoked in order until ExecutionStatus.DO_NOT_INVOKE_NEXT_IF_ANY is returned.
+¹13:35:34,300 |-INFO in ch.qos.logback.classic.util.ContextInitializer@bf1ec20 - Constructed configurator of type class org.springframework.boot.logging.logback.RootLogLevelConfigurator
+Ý13:35:34,303 |-INFO in ch.qos.logback.classic.util.ContextInitializer@bf1ec20 - org.springframework.boot.logging.logback.RootLogLevelConfigurator.configure() call lasted 0 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+¢13:35:34,303 |-INFO in ch.qos.logback.classic.util.ContextInitializer@bf1ec20 - Trying to configure with ch.qos.logback.classic.joran.SerializedModelConfigurator
+°13:35:34,304 |-INFO in ch.qos.logback.classic.util.ContextInitializer@bf1ec20 - Constructed configurator of type class ch.qos.logback.classic.joran.SerializedModelConfigurator
+s13:35:34,304 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.scmo]
+n13:35:34,305 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.scmo]
+Ô13:35:34,305 |-INFO in ch.qos.logback.classic.util.ContextInitializer@bf1ec20 - ch.qos.logback.classic.joran.SerializedModelConfigurator.configure() call lasted 1 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+ž13:35:34,305 |-INFO in ch.qos.logback.classic.util.ContextInitializer@bf1ec20 - Trying to configure with ch.qos.logback.classic.util.DefaultJoranConfigurator
+¬13:35:34,305 |-INFO in ch.qos.logback.classic.util.ContextInitializer@bf1ec20 - Constructed configurator of type class ch.qos.logback.classic.util.DefaultJoranConfigurator
+r13:35:34,305 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+¸13:35:34,306 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/Users/mac/Desktop/StudySpring/ThirdWeek/build/resources/main/logback.xml]
+ˆ13:35:34,330 |-ERROR in ch.qos.logback.core.joran.action.AppenderAction - Missing attribute [class]. See element [appender] near line 2
+‡13:35:34,330 |-ERROR in ch.qos.logback.core.joran.action.AppenderAction - Missing attribute [name]. See element [appender] near line 2
+’13:35:34,332 |-ERROR in ch.qos.logback.core.joran.spi.SaxEventInterpreter@7:5 - Exception in body() method for action [ch.qos.logback.core.joran.action.AppenderAction] ch.qos.logback.core.joran.spi.ActionException: current model is null. Is <configuration> element missing?
+n	at ch.qos.logback.core.joran.spi.ActionException: current model is null. Is <configuration> element missing?
+W	at 	at ch.qos.logback.core.joran.action.BaseModelAction.body(BaseModelAction.java:69)
+g	at 	at ch.qos.logback.core.joran.spi.SaxEventInterpreter.callBodyAction(SaxEventInterpreter.java:257)
+c	at 	at ch.qos.logback.core.joran.spi.SaxEventInterpreter.characters(SaxEventInterpreter.java:165)
+L	at 	at ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:56)
+h	at 	at ch.qos.logback.core.joran.GenericXMLConfigurator.playSaxEvents(GenericXMLConfigurator.java:207)
+u	at 	at ch.qos.logback.core.joran.GenericXMLConfigurator.buildModelFromSaxEventList(GenericXMLConfigurator.java:201)
+f	at 	at ch.qos.logback.core.joran.GenericXMLConfigurator.doConfigure(GenericXMLConfigurator.java:172)
+f	at 	at ch.qos.logback.core.joran.GenericXMLConfigurator.doConfigure(GenericXMLConfigurator.java:123)
+e	at 	at ch.qos.logback.core.joran.GenericXMLConfigurator.doConfigure(GenericXMLConfigurator.java:66)
+s	at 	at ch.qos.logback.classic.util.DefaultJoranConfigurator.configureByResource(DefaultJoranConfigurator.java:68)
+i	at 	at ch.qos.logback.classic.util.DefaultJoranConfigurator.configure(DefaultJoranConfigurator.java:35)
+d	at 	at ch.qos.logback.classic.util.ContextInitializer.invokeConfigure(ContextInitializer.java:142)
+_	at 	at ch.qos.logback.classic.util.ContextInitializer.autoConfig(ContextInitializer.java:101)
+^	at 	at ch.qos.logback.classic.util.ContextInitializer.autoConfig(ContextInitializer.java:67)
+r	at 	at ch.qos.logback.classic.spi.LogbackServiceProvider.initializeLoggerContext(LogbackServiceProvider.java:52)
+e	at 	at ch.qos.logback.classic.spi.LogbackServiceProvider.initialize(LogbackServiceProvider.java:41)
+=	at 	at org.slf4j.LoggerFactory.bind(LoggerFactory.java:199)
+N	at 	at org.slf4j.LoggerFactory.performInitialization(LoggerFactory.java:186)
+D	at 	at org.slf4j.LoggerFactory.getProvider(LoggerFactory.java:496)
+J	at 	at org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:482)
+B	at 	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:431)
+g	at 	at org.apache.commons.logging.LogAdapter$Slf4jAdapter.createLocationAwareLog(LogAdapter.java:121)
+L	at 	at org.apache.commons.logging.LogAdapter.createLog(LogAdapter.java:95)
+I	at 	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:67)
+I	at 	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:59)
+s	at 	at org.springframework.context.support.AbstractApplicationContext.<init>(AbstractApplicationContext.java:183)
+q	at 	at org.springframework.context.support.GenericApplicationContext.<init>(GenericApplicationContext.java:123)
+…	at 	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:67)
+…	at 	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:91)
+n	at 	at hello.core.singleton.ConfigurationSingletonTest.configurationDeep(ConfigurationSingletonTest.java:46)
+n	at 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+C	at 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+_	at 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:767)
+^	at 	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+ˆ	at 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+a	at 	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+o	at 	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+j	at 	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+¡	at 	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+€	at 	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+‰	at 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+r	at 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+y	at 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+q	at 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+w	at 	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+w	at 	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+‚	at 	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$8(TestMethodTestDescriptor.java:217)
+n	at 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+y	at 	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+p	at 	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+o	at 	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+w	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+n	at 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+w	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+R	at 	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+w	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+n	at 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+n	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+c	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+C	at 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+ž	at 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+w	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+n	at 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+w	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+R	at 	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+w	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+n	at 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+n	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+c	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+C	at 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+ž	at 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+w	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+n	at 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+w	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+R	at 	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+w	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+n	at 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+n	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+c	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+›	at 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+z	at 	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+v	at 	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+s	at 	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+s	at 	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+r	at 	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+{	at 	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+‚	at 	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+r	at 	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+[	at 	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+Z	at 	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+`	at 	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+º	at 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+®	at 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+Š	at 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+l	at 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+n	at 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+C	at 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+]	at 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+]	at 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+m	at 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+|	at 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+;	at 	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+[	at 	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+r	at 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+]	at 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+\	at 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+n	at 	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+†	at 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+…	at 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+a	at 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+b	at 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+ 13:35:34,346 |-WARN in ch.qos.logback.core.model.processor.ImplicitModelHandler - Ignoring unknown property [encoder] in [ch.qos.logback.classic.LoggerContext]
+m13:35:34,348 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@435fb7b5 - End of configuration.
+Š13:35:34,348 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@4e70a728 - Registering current configuration as safe fallback point
+Ø13:35:34,348 |-INFO in ch.qos.logback.classic.util.ContextInitializer@bf1ec20 - ch.qos.logback.classic.util.DefaultJoranConfigurator.configure() call lasted 43 milliseconds. ExecutionStatus=DO_NOT_INVOKE_NEXT_IF_ANY
+
+call AppConfig.memberService
+ call AppConfig.memberRepository
+call AppConfig.orderService
+2bean : class hello.core.AppConfig$$SpringCGLIB$$0

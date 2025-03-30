@@ -1,6 +1,7 @@
 package hello.core.order;
 
 import hello.core.AppConfig;
+import hello.core.AutoAppConfig;
 import hello.core.member.Grade;
 import hello.core.member.Member;
 import hello.core.member.MemberService;
@@ -23,7 +24,7 @@ public class OrderServiceTest {
 //        memberService = appConfig.memberService();
 //        orderService = appConfig.orderService();
 
-        AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
+        AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AutoAppConfig.class);
         memberService = ac.getBean(MemberService.class);
         orderService = ac.getBean(OrderService.class);
     }

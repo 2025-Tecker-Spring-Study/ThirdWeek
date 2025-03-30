@@ -1,0 +1,6 @@
+url when constructing : null
+NetworkClient.init
+네트워크 연결
+=message : 초기화메시지and url :http://hello-spring.dev
+NetworkClient.close
+0url when disconnecting: http://hello-spring.dev
